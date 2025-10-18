@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Temperature Converter</h1>
+        <div id="input-row">
+            <input type="number" id="celsiusInput" class="tempInput" placeholder="Celsius">
+            <span id="arrow">&#8594;</span>
+            <input type="number" id="fahrenheitInput" class="tempInput" placeholder="Fahrenheit" disabled>
+        </div>
+        <button onclick="convertTemp()">Convert</button>
+        <button onclick="switchInputs()">Switch</button>
+        <div id="result"></div>
+        <div id="watermark" style="margin-top:2em; font-size:0.9em; color:#888;">
+            Made by Joaquin Luis Guevarra @ <a href="https://github.com/Joaqamole96" target="_blank">Joaqamole96</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+}
+
+#container {
+    background: #fff;
+    padding: 2em;
+    margin: 5em auto;
+    width: 340px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+#input-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    margin-bottom: 1em;
+}
+
+input, select {
+    margin: 0.5em 0;
+    padding: 0.5em;
+    width: 90%;
+    font-size: 1em;
+}
+
+.tempInput {
+    width: 100px;
+    padding: 0.5em;
+    font-size: 1em;
+}
+
+#arrow {
+    font-size: 2em;
+}
+
+button {
+    margin: 0.5em 0.25em;
+    padding: 0.5em 1em;
+    font-size: 1em;
+}
+
+#result {
+    margin-top: 1em;
+    font-weight: bold;
+}
