@@ -1,0 +1,80 @@
+:root {
+            --primary-color: #4CAF50;
+            --primary-hover: #45a049;
+            --text-light: #ffffff;
+            --text-dark: #333333;
+            --bg-light: #f4f4f4;
+            --bg-card: #ffffff;
+            --border-color: #ddd;
+            --table-header-bg: #f2f2f2;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+        }
+        header {
+            background-color: var(--primary-color);
+            color: var(--text-light);
+            padding: 10px 0;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+            background: var(--bg-card);
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h2 {
+            margin-top: 0;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+        }
+        button {
+            background-color: var(--primary-color);
+            color: var(--text-light);
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        button:hover {
+            background-color: var(--primary-hover);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid var(--border-color);
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: var(--table-header-bg);
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: var(--text-dark);
+            color: var(--text-light);
+        }
+        footer a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Joaquin's Repository</title>
+
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/projects.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Joaquin's Repository</a></h1>
+        <!-- Rudimentary Routing -->
+        <div id="header_bar">
+            <nav role="navigation" aria-label="Main Navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div id="socials">
+                <a href="https://github.com/Joaqamole96" target="_blank"><img class="img_icon" src="../imgs/github.png">GitHub</a>
+                <a href="https://www.linkedin.com/in/joaquin-luis-guevarra-24a143327/" target="_blank"><img class="img_icon" src="../imgs/linkedin.png">LinkedIn</a>
+            </div>
+        </div>
+    </header>
+
+    <main id="main_home" role="main">
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div id="projects_intro" class="projects subsection">
+                <h2>Featured Projects</h2>
+                <p>Here are some of the projects I'm working on recently. Click on any project to learn more about it!</p>
+            </div>
+
+            <div id="projects_grid" class="projects subsection">
+                <div class="project_card">
+                    <h3>UMatch</h3>
+                    <p>
+                        An online lost and found system designed for the University of Makati students and staff to report and recover lost items. 
+                        It features location-based reporting, item categorization, and a user-friendly interface to 
+                        streamline the process of reuniting owners with their belongings.
+                    </p>
+                </div>
+                <div class="project_card">
+                    <h3>Acadenza</h3>
+                    <p>
+                        A college productivity app aimed at helping students manage their tasks, schedules, and 
+                        collaborative activities. Currently in development, it features planning tools with future 
+                        goals of becoming a shared student hub for group productivity.
+                    </p>
+                </div>
+                <div class="project_card">
+                    <h3>Dungeon Frontier</h3>
+                    <p>
+                        A Unity 3D rogue-like action RPG mobile game where you play as a Sentinel, exploring an unstable dimension filled with incomprehensible creatures and untold treasures.
+                        The game makes use of various extensive algorithms such as prodecural generation and enemy pathfinding & positioning to maximize replayability and satisfaction from completing a playthrough.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Joaquin's Portfolio. All rights reserved.</p>
+    </footer>
+    <script src="../scripts/introduce.js"></script>
+</body>
+</html>

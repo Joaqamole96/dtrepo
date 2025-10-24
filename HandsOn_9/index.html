@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color, Text, and Image Picker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Color, Text, and Image Picker</h1>
+    </header>
+    
+    <main>
+        <section id="page-controls">
+            <h2>1. Change Page Background</h2>
+            <input type="color" id="pageColorPicker">
+        </section>
+
+        <section id="div-controls">
+            <h2>2. Customize Div</h2>
+            <label>Change Div Background: </label>
+            <input type="color" id="divColorPicker">
+            <br><br>
+            <label>Change Div Text: </label>
+            <input type="text" id="divTextInput" placeholder="Enter new text">
+            <br><br>
+            <button id="changeTextBtn">Change Text</button>
+        </section>
+
+        <div id="customDiv">This is your editable div!</div>
+
+        <section id="image-controls">
+            <h2>3. Replace JPEG Image</h2>
+            <input type="file" id="imageUploader" accept="image/jpeg">
+            <div id="imageContainer">
+                <img id="displayImage" src="img/image.jpg" alt="Display Image">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Direcho Trabaho Web Development with JavaScript | Designed by Joaquin Luis Guevarra</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

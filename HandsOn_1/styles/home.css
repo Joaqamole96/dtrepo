@@ -1,0 +1,16 @@
+/* =========================================
+Section: Home
+========================================= */
+
+#hero {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: var(--secondary-color);
+    border-radius: var(--border-radius);
+}
+
+#hero img {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-top: 1rem;
+}

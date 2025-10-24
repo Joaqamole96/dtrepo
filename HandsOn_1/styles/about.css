@@ -1,0 +1,14 @@
+/* =========================================
+Section: About
+========================================= */
+
+#about h2 {
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-sm);
+}
+
+#about ul {
+    list-style: disc;
+    margin-left: 1.5rem;
+    line-height: var(--line-height-base);
+}

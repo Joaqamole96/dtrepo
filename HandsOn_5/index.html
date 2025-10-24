@@ -4,88 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Record Management</title>
-    <style>
-        :root {
-            --primary-color: #4CAF50;
-            --primary-hover: #45a049;
-            --text-light: #ffffff;
-            --text-dark: #333333;
-            --bg-light: #f4f4f4;
-            --bg-card: #ffffff;
-            --border-color: #ddd;
-            --table-header-bg: #f2f2f2;
-        }
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: var(--bg-light);
-            color: var(--text-dark);
-        }
-        header {
-            background-color: var(--primary-color);
-            color: var(--text-light);
-            padding: 10px 0;
-            text-align: center;
-        }
-        main {
-            padding: 20px;
-        }
-        section {
-            margin-bottom: 20px;
-            background: var(--bg-card);
-            padding: 15px;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        h2 {
-            margin-top: 0;
-        }
-        label {
-            display: block;
-            margin-bottom: 5px;
-        }
-        input[type="text"] {
-            width: 100%;
-            padding: 8px;
-            margin-bottom: 10px;
-            border: 1px solid var(--border-color);
-            border-radius: 4px;
-        }
-        button {
-            background-color: var(--primary-color);
-            color: var(--text-light);
-            border: none;
-            padding: 10px 15px;
-            cursor: pointer;
-            border-radius: 4px;
-        }
-        button:hover {
-            background-color: var(--primary-hover);
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid var(--border-color);
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: var(--table-header-bg);
-        }
-        footer {
-            text-align: center;
-            padding: 10px 0;
-            background-color: var(--text-dark);
-            color: var(--text-light);
-        }
-        footer a {
-            color: var(--primary-color);
-            text-decoration: none;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -131,52 +50,6 @@
     <footer>
         <p>&copy; <a href="https://www.github.com/Joaqamole96" target="_blank">Joaqamole96</a></p>
     </footer>
-    <script>
-        const students = [];
-
-        function addStudent() {
-            const firstName = document.getElementById('first_name').value.trim();
-            const middleName = document.getElementById('middle_name').value.trim();
-            const lastName = document.getElementById('last_name').value.trim();
-            const phone = document.getElementById('phone').value.trim();
-            const address = document.getElementById('address').value.trim();
-
-            if (!firstName || !middleName || !lastName || !phone || !address) {
-                alert('Please fill in all fields.');
-                return;
-            }
-
-            const student = { firstName, middleName, lastName, phone, address };
-            students.push(student);
-
-            renderStudents();
-            clearInputs();
-        }
-
-        function renderStudents() {
-            const tableBody = document.getElementById('student-list');
-            tableBody.innerHTML = '';
-
-            for (const { firstName, middleName, lastName, phone, address } of students) {
-                const row = document.createElement('tr');
-                row.innerHTML = `
-                    <td>${firstName}</td>
-                    <td>${middleName}</td>
-                    <td>${lastName}</td>
-                    <td>${phone}</td>
-                    <td>${address}</td>
-                `;
-                tableBody.appendChild(row);
-            }
-        }
-
-        function clearInputs() {
-            document.getElementById('first_name').value = '';
-            document.getElementById('middle_name').value = '';
-            document.getElementById('last_name').value = '';
-            document.getElementById('phone').value = '';
-            document.getElementById('address').value = '';
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
