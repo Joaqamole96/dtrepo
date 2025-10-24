@@ -1,0 +1,98 @@
+:root {
+    --primary: #1565c0;
+    --primary-dark: #0d47a1;
+    --bg: #f5f7fa;
+    --surface: #ffffff;
+    --text-dark: #222;
+    --muted: #555;
+    --radius: 12px;
+    --shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text-dark);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: linear-gradient(90deg, var(--primary), var(--primary-dark));
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: var(--shadow);
+}
+
+header h1 {
+    font-weight: 600;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+#counter-container {
+    background: var(--surface);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#counter-container h2 {
+    color: var(--primary);
+    font-size: 1.2em;
+}
+
+textarea {
+    width: 100%;
+    min-height: 150px;
+    border-radius: var(--radius);
+    border: 1px solid #ccc;
+    padding: 12px;
+    font-size: 1em;
+    resize: vertical;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+textarea:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(21, 101, 192, 0.15);
+}
+
+#counter-display {
+    font-size: 1.1em;
+    text-align: right;
+    color: var(--muted);
+}
+
+#charCount {
+    font-weight: 700;
+    color: var(--primary-dark);
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    background: #eee;
+    color: #444;
+}
