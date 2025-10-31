@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="app-header">
+        <h1>Task Manager</h1>
+        <p>Organize the day with this dynamic to-do list application.</p>
+    </header>
+
+    <main class="app-main">
+        <section class="task-input-section">
+            <h2>Add New Task</h2>
+            <form id="new-task-form">
+                <input type="text" id="task-title-input" placeholder="Task Title (e.g., Buy groceries)" required>
+                <textarea id="task-desc-input" placeholder="Task Description (optional)"></textarea>
+                <button type="submit" id="add-task-btn">Add Task</button>
+            </form>
+        </section>
+
+        <section class="task-list-section">
+            <h2>Your Tasks</h2>
+            <ul id="task-list">
+                </ul>
+            <p id="empty-list-message">No tasks yet! Add one above.</p>
+        </section>
+    </main>
+
+    <footer class="app-footer">
+        <p>&copy; 2025 Direcho Trabaho Web Development with JavaScript | Designed by Joaquin Luis Guevarra</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
