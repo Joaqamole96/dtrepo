@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOT Buggy Calculator</title>
+    <!-- Small amount of CSS for aesthetics -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f4f4f9;
+        }
+        h2 {
+            color: #333;
+        }
+        input, select, button {
+            padding: 10px;
+            margin-right: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            border: none;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #result {
+            font-weight: bold;
+            color: #28a745;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>🧮 Patched Simple Calculator</h2>
+    
+    <input id="num1" type="number" placeholder="Enter first number">
+    <input id="num2" type="number" placeholder="Enter second number">
+    
+    <select id="operator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    
+    <button onclick="calculate()">Calculate</button>
+    <p id="result">Result: </p>
+
+    <a href="index.html">Go back to Buggy Calculator</a>
+
+    <script>
+        function calculate() {
+            // Fix 1: Corrected method name to getElementById (lowercase 'd')
+            // Fix 1.1: Added parseFloat() to ensure inputs are treated as numbers
+            const num1Value = parseFloat(document.getElementById("num1").value);
+            
+            // Fix 2: Corrected selector in querySelector to include the '#' for ID
+            // Fix 2.1: Added parseFloat() to ensure inputs are treated as numbers
+            const num2Value = parseFloat(document.querySelector("#num2").value);
+            
+            const operator = document.getElementById("operator").value;
+
+            // Fix 3: Added missing declaration for result variable
+            let result;
+            
+            try {
+                // Fix 4: Used isNaN() to check if inputs are valid numbers (bonus: can also handle empty string and non-numeric inputs)
+                if (isNaN(num1Value) || isNaN(num2Value)) {
+                    // Fix 5: Used Error() for better error handling
+                    throw new Error("Please enter valid numbers in both fields.");
+                }
+
+                // Fix 6: Corrected assignment operator (=) to comparison operator (==)
+                if (operator == "+") {
+                    result = num1Value + num2Value; // Arithmetic addition now works
+                } else if (operator == "-") {
+                    result = num1Value - num2Value;
+                } else if (operator == "*") {
+                    result = num1Value * num2Value;
+                } else if (operator === "/") {
+                    if (num2Value == 0) {
+                        throw new Error("Division by zero is not allowed!");
+                    }
+                    result = num1Value / num2Value;
+                } else {
+                    throw new Error("Invalid operator selected.");
+                }
+                
+                document.getElementById("result").innerText = "Result: " + result;
+
+            } catch(err) {
+                // If the error is string, fall back to string itself
+                // Otherwise use err.message (for new Error objects)
+                const errorMessage = err.message || err; 
+                document.getElementById("result").innerText = "Error: " + errorMessage;
+                document.getElementById("result").style.color = "#dc3545";
+            }
+        }
+    </script>
+</body>
+</html>
