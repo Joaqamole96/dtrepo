@@ -1,0 +1,327 @@
+[
+  {
+    "category": "joke",
+    "question": "Why don't scientists trust atoms?",
+    "answer": "Because they make up everything!"
+  },
+  {
+    "category": "joke",
+    "question": "What do you call a fake noodle?",
+    "answer": "An impasta."
+  },
+  {
+    "category": "joke",
+    "question": "Why was the math book sad?",
+    "answer": "Because it had too many problems."
+  },
+  {
+    "category": "joke",
+    "question": "I told my wife she was drawing her eyebrows too high.",
+    "answer": "She looked surprised."
+  },
+  {
+    "category": "joke",
+    "question": "What kind of key opens doors that can't be locked?",
+    "answer": "A donkey."
+  },
+  {
+    "category": "joke",
+    "question": "What time did the man go to the dentist?",
+    "answer": "Tooth-hurty."
+  },
+  {
+    "category": "joke",
+    "question": "Why can’t you hear a Pterodactyl go to the bathroom?",
+    "answer": "Because the 'P' is silent."
+  },
+  {
+    "category": "joke",
+    "question": "Did you hear about the two guys who stole a calendar?",
+    "answer": "They each got six months."
+  },
+  {
+    "category": "joke",
+    "question": "I invented a new word!",
+    "answer": "Plagiarism!"
+  },
+  {
+    "category": "joke",
+    "question": "What is the loudest pet?",
+    "answer": "A trumpet."
+  },
+  {
+    "category": "riddle",
+    "question": "What has an eye but cannot see?",
+    "answer": "A needle."
+  },
+  {
+    "category": "riddle",
+    "question": "What has cities, but no houses; forests, but no trees; and water, but no fish?",
+    "answer": "A map."
+  },
+  {
+    "category": "riddle",
+    "question": "What question can you never answer yes to?",
+    "answer": "Are you asleep yet?"
+  },
+  {
+    "category": "riddle",
+    "question": "I am tall when I am young, and I am short when I am old. What am I?",
+    "answer": "A candle."
+  },
+  {
+    "category": "riddle",
+    "question": "What word is spelled wrong in every dictionary?",
+    "answer": "Wrong."
+  },
+  {
+    "category": "riddle",
+    "question": "What is full of holes but still holds water?",
+    "answer": "A sponge."
+  },
+  {
+    "category": "riddle",
+    "question": "What has to be broken before you can use it?",
+    "answer": "An egg."
+  },
+  {
+    "category": "riddle",
+    "question": "What can travel all around the world without leaving its corner?",
+    "answer": "A stamp."
+  },
+  {
+    "category": "riddle",
+    "question": "What belongs to you but is used more by others?",
+    "answer": "Your name."
+  },
+  {
+    "category": "riddle",
+    "question": "I am always hungry, I must always be fed, the finger I touch, will soon turn red. What am I?",
+    "answer": "Fire."
+  },
+  {
+    "category": "computer science",
+    "question": "What does SQL stand for?",
+    "answer": "Structured Query Language"
+  },
+  {
+    "category": "computer science",
+    "question": "What is the primary function of the operating system's kernel?",
+    "answer": "To manage the computer's hardware and software resources."
+  },
+  {
+    "category": "computer science",
+    "question": "What does CSS stand for in web development?",
+    "answer": "Cascading Style Sheets"
+  },
+  {
+    "category": "computer science",
+    "question": "In object-oriented programming, what is polymorphism?",
+    "answer": "The ability of an object to take on many forms."
+  },
+  {
+    "category": "computer science",
+    "question": "What is the maximum number represented by an 8-bit binary number (unsigned)?",
+    "answer": "255"
+  },
+  {
+    "category": "math",
+    "question": "What is the value of PI rounded to four decimal places?",
+    "answer": "3.1416"
+  },
+  {
+    "category": "math",
+    "question": "What is the name of a polygon with nine sides?",
+    "answer": "Nonagon"
+  },
+  {
+    "category": "math",
+    "question": "What is the formula for calculating the area of a circle?",
+    "answer": "A = PI * r^2"
+  },
+  {
+    "category": "math",
+    "question": "What property states that a(b + c) = ab + ac?",
+    "answer": "The Distributive Property"
+  },
+  {
+    "category": "math",
+    "question": "How many degrees are in a triangle?",
+    "answer": "180 degrees"
+  },
+  {
+    "category": "engineering",
+    "question": "What is the primary purpose of reinforcement bars (rebar) in concrete structures?",
+    "answer": "To handle tensile (pulling) forces, as concrete is weak in tension."
+  },
+  {
+    "category": "engineering",
+    "question": "What is the study of how forces affect physical structures and their components?",
+    "answer": "Structural Analysis"
+  },
+  {
+    "category": "engineering",
+    "question": "What is the maximum load a structural component can withstand before failure?",
+    "answer": "Ultimate Strength"
+  },
+  {
+    "category": "engineering",
+    "question": "What is the engineering term for the downward settlement of a foundation?",
+    "answer": "Subsidence"
+  },
+  {
+    "category": "engineering",
+    "question": "What type of bridge design uses compression along the top and tension along the bottom chord?",
+    "answer": "Truss Bridge"
+  },
+  {
+    "category": "philippine history",
+    "question": "Who is known as the 'Father of the Philippine Revolution'?",
+    "answer": "Andrés Bonifacio"
+  },
+  {
+    "category": "philippine history",
+    "question": "In what year did the Philippines declare its independence from Spain?",
+    "answer": "1898"
+  },
+  {
+    "category": "philippine history",
+    "question": "What was the name of the first Philippine Republic, established by Emilio Aguinaldo?",
+    "answer": "The Malolos Republic"
+  },
+  {
+    "category": "philippine history",
+    "question": "What major global conflict included the Bataan Death March?",
+    "answer": "World War II"
+  },
+  {
+    "category": "philippine history",
+    "question": "What country ceded the Philippines to the United States under the Treaty of Paris?",
+    "answer": "Spain"
+  },
+  {
+    "category": "law",
+    "question": "What legal term refers to a prior ruling or decision that serves as an example or rule for subsequent similar cases?",
+    "answer": "Precedent"
+  },
+  {
+    "category": "law",
+    "question": "What is the Latin phrase for 'let the decision stand'?",
+    "answer": "Stare decisis"
+  },
+  {
+    "category": "law",
+    "question": "What part of a constitution guarantees fundamental rights and liberties to citizens?",
+    "answer": "Bill of Rights"
+  },
+  {
+    "category": "law",
+    "question": "What is the burden of proof in a typical civil case?",
+    "answer": "Preponderance of the evidence"
+  },
+  {
+    "category": "law",
+    "question": "What is a formal charge or accusation of a serious crime, presented by a grand jury?",
+    "answer": "Indictment"
+  },
+  {
+    "category": "physics",
+    "question": "What is the unit of force in the International System of Units (SI)?",
+    "answer": "Newton (N)"
+  },
+  {
+    "category": "physics",
+    "question": "What law states that 'for every action, there is an equal and opposite reaction'?",
+    "answer": "Newton's Third Law of Motion"
+  },
+  {
+    "category": "physics",
+    "question": "What phenomenon occurs when light bends as it passes from one medium to another (e.g., air to water)?",
+    "answer": "Refraction"
+  },
+  {
+    "category": "physics",
+    "question": "What property of a body determines its thermal energy content?",
+    "answer": "Temperature"
+  },
+  {
+    "category": "physics",
+    "question": "What fundamental constant links the energy of a photon with its frequency (E = hf)?",
+    "answer": "Planck's constant (h)"
+  },
+  {
+    "category": "human anatomy",
+    "question": "What is the largest organ in the human body?",
+    "answer": "The skin"
+  },
+  {
+    "category": "human anatomy",
+    "question": "Which chamber of the heart pumps oxygenated blood to the rest of the body?",
+    "answer": "The left ventricle"
+  },
+  {
+    "category": "human anatomy",
+    "question": "What is the specialized cell that transmits nerve impulses?",
+    "answer": "Neuron"
+  },
+  {
+    "category": "human anatomy",
+    "question": "What structure connects muscles to bones?",
+    "answer": "Tendon"
+  },
+  {
+    "category": "human anatomy",
+    "question": "Which bones make up the rib cage?",
+    "answer": "The ribs and sternum (breastbone)"
+  },
+  {
+    "category": "botany",
+    "question": "What is the process by which plants convert light energy into chemical energy?",
+    "answer": "Photosynthesis"
+  },
+  {
+    "category": "botany",
+    "question": "What are the tiny pores on the surface of leaves through which gas exchange occurs?",
+    "answer": "Stomata (or stoma)"
+  },
+  {
+    "category": "botany",
+    "question": "What plant tissue is responsible for transporting water and nutrients from the roots to the rest of the plant?",
+    "answer": "Xylem"
+  },
+  {
+    "category": "botany",
+    "question": "What is the primary substance that gives plant cells their structural rigidity?",
+    "answer": "Cellulose"
+  },
+  {
+    "category": "botany",
+    "question": "What do gymnosperms (like conifers) produce instead of flowers or enclosed fruit?",
+    "answer": "Cones"
+  },
+  {
+    "category": "literature",
+    "question": "Who is the author of the epic poem 'The Iliad'?",
+    "answer": "Homer"
+  },
+  {
+    "category": "literature",
+    "question": "What literary device uses an object or idea to represent something else?",
+    "answer": "Symbolism"
+  },
+  {
+    "category": "literature",
+    "question": "In Shakespeare's 'Hamlet', who is the prince of Denmark?",
+    "answer": "Hamlet"
+  },
+  {
+    "category": "literature",
+    "question": "What is a narrative poem, usually dealing with adventures and heroic deeds?",
+    "answer": "An Epic"
+  },
+  {
+    "category": "literature",
+    "question": "What is the name of the white whale in Herman Melville's novel?",
+    "answer": "Moby Dick"
+  }
+]
