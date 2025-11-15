@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joaquin's Digital Pasalubong Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Piling Pinoy: Digital Pasalubong Shop</h1>
+        <p>Your one-stop shop for innovative Filipino products!</p>
+    </header>
+
+    <main>
+        <p class="relief-message">
+            In the wake of the recent typhoon disaster, a portion of all proceeds 
+            from this shop will be donated directly to local typhoon relief and 
+            recovery programs to support affected communities. Salamat po!
+        </p>
+
+        <div class="controls-container">
+            <div class="control-group">
+                <label for="sort-by">Sort By:</label>
+                <select id="sort-by">
+                    <option value="name-asc">Name (A-Z)</option>
+                    <option value="name-desc">Name (Z-A)</option>
+                    <option value="price-asc">Price (Lowest)</option>
+                    <option value="price-desc">Price (Highest)</option>
+                </select>
+            </div>
+
+            <div class="control-group">
+                <label for="filter-type">Filter By Category:</label>
+                <select id="filter-type">
+                    <option value="all">All Items</option>
+                    <option value="gadgets">Gadgets</option>
+                    <option value="fashion">Fashion</option>
+                    <option value="home">Home & Lifestyle</option>
+                </select>
+            </div>
+            
+            <div class="control-group price-inputs">
+                <label>Price Range (₱):</label>
+                <input type="number" id="min-price" placeholder="Min" value="0" min="0" step="100">
+                <span>to</span>
+                <input type="number" id="max-price" placeholder="Max" value="15000" min="0" step="100">
+                <button id="apply-filter">Apply</button>
+            </div>
+        </div>
+
+        <div id="product-list" class="product-list">
+            </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Direcho Trabaho Web Development with JavaScript | Designed by Joaquin Luis Guevarra</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

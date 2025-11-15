@@ -1,0 +1,140 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding-bottom: 50px;
+    background-color: #e9ecef;
+}
+
+header {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #343a40;
+    color: #ffffff;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin-top: 0;
+    color: #ffc107;
+}
+
+.relief-message {
+    padding: 15px;
+    background-color: #dc3545;
+    color: white;
+    border-radius: 5px;
+    margin: 0px 20px 25px 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.controls-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 20px;
+    padding: 15px;
+    margin: 0 20px 25px 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.control-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+select, input[type="number"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+    width: 80px; 
+    text-align: right;
+}
+
+.price-inputs input[type="number"] {
+    width: 70px; 
+}
+
+.price-inputs button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.price-inputs button:hover {
+    background-color: #0056b3;
+}
+
+
+main {
+    padding: 0 20px;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 25px;
+    padding: 10px 0;
+}
+
+.product-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #f8f9fa;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.product-card h3 {
+    color: #007bff;
+    margin-top: 0;
+}
+
+.product-price {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #dc3545; 
+    margin: 10px 0 15px 0;
+}
+
+.buy-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745; 
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.2s;
+}
+
+.buy-button:hover {
+    background-color: #218838;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+    color: #adb5bd; 
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.8em;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
